@@ -71,3 +71,31 @@ h1{
     color: #cccccc;
     text-shadow: 1px 1px black;
 }
+#line
+{
+    background-color: rgb(211, 50, 50);
+    /*height: 8px;
+    width: 180px;*/
+    border-radius: 10px;
+    position: absolute;
+    /*transform: translateY(580%) rotate(0deg);
+    animation: leftt 1.5s linear 1s;*/
+}
+@keyframes leftt
+{
+    0%{
+        width: 0%;
+    }
+    50%
+    {
+        width: 6%;
+    }
+    75%
+    {
+        width: 9%
+    }
+    100%
+    {
+        width: 12%;
+    }
+}
