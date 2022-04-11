@@ -259,11 +259,11 @@ function op(val)
             alert(" click on the empty space !!!")
         }
     }
-    }
+    }/*
     else if(win == 1)
        alert("player 1 wins")
     else if(win == 2)
-       alert("player 2 wins")
+       alert("player 2 wins")*/
     if(user == 0)
     {
         document.getElementById("pl1").style.color = "red";
@@ -299,7 +299,8 @@ function check1()
         }
         if(flag == 1)
         {
-            alert("player 1 wins")
+            /*alert("player 1 wins")*/
+            line(i+1);
             win = 1;
             break;
         }
@@ -329,7 +330,8 @@ function check2()
         }
         if(flag == 1)
         {
-            alert("player 2 wins")
+            /*alert("player 2 wins")*/
+            line(i+1);
             win = 2;
             break;
         }
@@ -338,4 +340,39 @@ function check2()
 function refresh()
 {
     window.location.reload();
+}
+function line(index)
+{
+    if(index == 1)
+    {
+        document.getElementById("line").style = "transform : translateY(1800%) rotate(90deg); width : 230px; height : 8px; margin-right: 150px; animation: leftt 2s linear 1s;";
+    }
+    else if(index == 2)
+    {
+        document.getElementById("line").style = "transform : translateY(1800%) rotate(90deg); width : 230px; height : 8px; animation: leftt 2s linear 1s;";
+    }
+    else if(index == 3)
+    {
+        document.getElementById("line").style = "transform : translateY(1800%) rotate(90deg); width : 230px; height : 8px; margin-left: 150px; animation: leftt 2s linear 1s;";
+    }
+    else if(index == 4)
+    {
+        document.getElementById("line").style = "transform : translateY(580%) rotate(0deg); width : 180px; height : 8px; animation: leftt 2s linear 1s;";
+    }
+    else if(index == 5)
+    {
+        document.getElementById("line").style = "transform : translateY(1800%) rotate(0deg); width : 180px; height : 8px; animation: leftt 2s linear 1s;";
+    }
+    else if(index == 6)
+    {
+        document.getElementById("line").style = "transform : translateY(3080%) rotate(0deg); width : 180px; height : 8px; animation: leftt 2s linear 1s;";
+    }
+    else if(index == 7)
+    {
+        document.getElementById("line").style = "transform : translateY(1850%) rotate(53deg); width : 280px; height : 8px; animation: leftt 2s linear 1s;";
+    }
+    else if(index == 8)
+    {
+        document.getElementById("line").style = "transform : translateY(1850%) rotate(127deg); width : 280px; height : 8px; animation: leftt 2s linear 1s;";
+    }
 }
