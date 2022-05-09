@@ -301,6 +301,8 @@ function check1()
         {
             /*alert("player 1 wins")*/
             line(i+1);
+            document.getElementById("disp").innerHTML = "Player 1 Wins";
+            document.getElementById("winning").style = "visibility: visible;";
             win = 1;
             break;
         }
@@ -332,6 +334,8 @@ function check2()
         {
             /*alert("player 2 wins")*/
             line(i+1);
+            document.getElementById("disp").innerHTML = "Player 2 Wins";
+            document.getElementById("winning").style = "visibility: visible;";
             win = 2;
             break;
         }
