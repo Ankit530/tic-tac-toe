@@ -56,8 +56,16 @@ h1{
 }
 #button
 {
-    margin-top: 5%;
-    margin-left: 65%;
+    position: absolute;
+    bottom: 7%;
+    left: 45%;
+    border-radius: 20%;
+    font-weight: bolder;
+}
+#button:hover
+{
+    background-color: grey;
+    color: #04141b;
 }
 #pl1
 {
@@ -98,4 +106,49 @@ h1{
     {
         width: 12%;
     }
+}
+#winning
+{
+    position: absolute;
+    background-color: #c8e9f7;
+    height: 300px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    border-radius: 15%;
+    transform: translateX(-200px) translateY(-100px);
+    z-index: 10;
+    visibility: hidden;
+}
+#wish
+{
+    position: relative;
+    top: 30%;
+    left: 25%;
+    font-size: 30px;
+    color: #04141b;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#image
+{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 2%;
+    left: 30%;
+}
+#disp
+{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: bolder;
+    animation: animate 1.5s linear infinite;
 }
