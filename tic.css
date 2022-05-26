@@ -152,3 +152,30 @@ h1{
     font-weight: bolder;
     animation: animate 1.5s linear infinite;
 }
+#tie
+{
+    position: absolute;
+    background-color: #c8e9f7;
+    height: 300px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    border-radius: 15%;
+    transform: translateX(-200px) translateY(-100px);
+    z-index: 10;
+    visibility: hidden;
+}
+#tiedisp
+{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(1, 1, 37);
+    font-family: cursive;
+    font-style: oblique;
+    text-decoration: underline;
+    font-weight: bolder;
+    animation: animate 1.5s linear infinite;
+}
