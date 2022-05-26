@@ -19,6 +19,10 @@ function op(val)
                 val1 = 1;
                 player1.push(1);
                 check1();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
             else
             {
@@ -28,6 +32,10 @@ function op(val)
                 val1 = 2;
                 player2.push(1);
                 check2();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
         }
         else
@@ -47,6 +55,10 @@ function op(val)
                 val2 = 1;
                 player1.push(2);
                 check1();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
             else
             {
@@ -56,6 +68,10 @@ function op(val)
                 val2 = 2;
                 player2.push(2);
                 check2();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
         }
         else
@@ -75,6 +91,10 @@ function op(val)
                 val3 = 1;
                 player1.push(3);
                 check1();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
             else
             {
@@ -84,6 +104,10 @@ function op(val)
                 val3 = 2;
                 player2.push(3);
                 check2();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
         }
         else
@@ -103,6 +127,10 @@ function op(val)
                 val4 = 1;
                 player1.push(4);
                 check1();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
             else
             {
@@ -112,6 +140,10 @@ function op(val)
                 val4 = 2;
                 player2.push(4);
                 check2();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
         }
         else
@@ -131,6 +163,10 @@ function op(val)
                 val5 = 1;
                 player1.push(5);
                 check1();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
             else
             {
@@ -140,6 +176,10 @@ function op(val)
                 val5 = 2;
                 player2.push(5);
                 check2();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
         }
         else
@@ -159,6 +199,10 @@ function op(val)
                 val6 = 1;
                 player1.push(6);
                 check1();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
             else
             {
@@ -168,6 +212,10 @@ function op(val)
                 val6 = 2;
                 player2.push(6);
                 check2();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
         }
         else
@@ -187,6 +235,10 @@ function op(val)
                 val7 = 1;
                 player1.push(7);
                 check1();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
             else
             {
@@ -196,6 +248,10 @@ function op(val)
                 val7 = 2;
                 player2.push(7);
                 check2();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
         }
         else
@@ -215,6 +271,10 @@ function op(val)
                 val8 = 1;
                 player1.push(8);
                 check1();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
             else
             {
@@ -224,6 +284,10 @@ function op(val)
                 val8 = 2;
                 player2.push(8);
                 check2();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
         }
         else
@@ -243,6 +307,10 @@ function op(val)
                 val9 = 1;
                 player1.push(9);
                 check1();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
             else
             {
@@ -252,6 +320,10 @@ function op(val)
                 val9 = 1;
                 player2.push(9);
                 check2();
+                if((player1.length + player2.length) == 9)
+                {
+                    document.getElementById("tie").style = "visibility: visible;";
+                }
             }
         }
         else
