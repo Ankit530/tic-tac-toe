@@ -15,6 +15,7 @@ function op(val)
             {
                 document.getElementById("box1").innerHTML = "X";
                 document.getElementById("box1").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 1;
                 val1 = 1;
                 player1.push(1);
@@ -22,12 +23,14 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
             else
             {
                 document.getElementById("box1").innerHTML = "O";              
                 document.getElementById("box1").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 0;
                 val1 = 2;
                 player2.push(1);
@@ -35,6 +38,7 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
         }
@@ -51,6 +55,7 @@ function op(val)
             {
                 document.getElementById("box2").innerHTML = "X";                
                 document.getElementById("box2").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 1;
                 val2 = 1;
                 player1.push(2);
@@ -58,12 +63,14 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
             else
             {
                 document.getElementById("box2").innerHTML = "O";
                 document.getElementById("box2").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 0;
                 val2 = 2;
                 player2.push(2);
@@ -71,6 +78,7 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
         }
@@ -87,6 +95,7 @@ function op(val)
             {
                 document.getElementById("box3").innerHTML = "X";
                 document.getElementById("box3").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 1;
                 val3 = 1;
                 player1.push(3);
@@ -94,12 +103,14 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
             else
             {
                 document.getElementById("box3").innerHTML = "O";
                 document.getElementById("box3").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 0;
                 val3 = 2;
                 player2.push(3);
@@ -107,6 +118,7 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
         }
@@ -123,6 +135,7 @@ function op(val)
             {
                 document.getElementById("box4").innerHTML = "X";
                 document.getElementById("box4").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 1;
                 val4 = 1;
                 player1.push(4);
@@ -130,12 +143,14 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
             else
             {
                 document.getElementById("box4").innerHTML = "O";
                 document.getElementById("box4").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 0;
                 val4 = 2;
                 player2.push(4);
@@ -143,6 +158,7 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
         }
@@ -159,6 +175,7 @@ function op(val)
             {
                 document.getElementById("box5").innerHTML = "X";
                 document.getElementById("box5").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 1;
                 val5 = 1;
                 player1.push(5);
@@ -166,12 +183,14 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
             else
             {
                 document.getElementById("box5").innerHTML = "O";
                 document.getElementById("box5").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 0;
                 val5 = 2;
                 player2.push(5);
@@ -179,6 +198,7 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
         }
@@ -195,6 +215,7 @@ function op(val)
             {
                 document.getElementById("box6").innerHTML = "X";
                 document.getElementById("box6").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 1;
                 val6 = 1;
                 player1.push(6);
@@ -202,12 +223,14 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
             else
             {
                 document.getElementById("box6").innerHTML = "O";
                 document.getElementById("box6").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 0;
                 val6 = 2;
                 player2.push(6);
@@ -215,6 +238,7 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
         }
@@ -231,6 +255,7 @@ function op(val)
             {
                 document.getElementById("box7").innerHTML = "X";
                 document.getElementById("box7").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 1;
                 val7 = 1;
                 player1.push(7);
@@ -238,12 +263,14 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
             else
             {
                 document.getElementById("box7").innerHTML = "O";
                 document.getElementById("box7").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 0;
                 val7 = 2;
                 player2.push(7);
@@ -251,6 +278,7 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
         }
@@ -267,6 +295,7 @@ function op(val)
             {
                 document.getElementById("box8").innerHTML = "X";
                 document.getElementById("box8").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 1;
                 val8 = 1;
                 player1.push(8);
@@ -274,12 +303,14 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
             else
             {
                 document.getElementById("box8").innerHTML = "O";
                 document.getElementById("box8").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 0;
                 val8 = 2;
                 player2.push(8);
@@ -287,6 +318,7 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
         }
@@ -303,6 +335,7 @@ function op(val)
             {
                 document.getElementById("box9").innerHTML = "X";
                 document.getElementById("box9").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 1;
                 val9 = 1;
                 player1.push(9);
@@ -310,12 +343,14 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
             else
             {
                 document.getElementById("box9").innerHTML = "O";
                 document.getElementById("box9").style = "color : black";
+                document.getElementById("clicks").play();
                 user = 0;
                 val9 = 1;
                 player2.push(9);
@@ -323,6 +358,7 @@ function op(val)
                 if((player1.length + player2.length) == 9)
                 {
                     document.getElementById("tie").style = "visibility: visible;";
+                    document.getElementById("loses").play();
                 }
             }
         }
@@ -374,7 +410,8 @@ function check1()
             /*alert("player 1 wins")*/
             line(i+1);
             document.getElementById("disp").innerHTML = "Player 1 Wins";
-            document.getElementById("winning").style = "visibility: visible;";
+            document.getElementById("winning").style = "visibility: visible;";        
+            document.getElementById("wins").play();
             win = 1;
             break;
         }
@@ -408,6 +445,7 @@ function check2()
             line(i+1);
             document.getElementById("disp").innerHTML = "Player 2 Wins";
             document.getElementById("winning").style = "visibility: visible;";
+            document.getElementById("wins").play();
             win = 2;
             break;
         }
